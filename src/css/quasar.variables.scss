@@ -1,0 +1,73 @@
+// === THEME VARIABLE DEFINITIONS ===
+
+// Default (light mode)
+:root {
+  --q-bg-color: #913535;
+  --q-surface-color: #fafafa;
+  --q-text-color: #212121;
+  --q-border-color: #e0e0e0;
+
+  --q-primary-color: #009688; // teal-500
+  --q-secondary-color: #ff9800;
+  --q-accent-color: #9c27b0;
+}
+
+// Dark theme
+.theme-dark {
+  --q-bg-color: #9b6161;
+  --q-surface-color: #2a2a2a;
+  --q-text-color: #e0e0e0;
+  --q-border-color: #444444;
+
+  --q-primary-color: #26a69a;
+  --q-secondary-color: #ffa726;
+  --q-accent-color: #ce93d8;
+}
+
+// Sunrise theme
+.theme-sunrise {
+  --q-bg-color: #fff3e0;
+  --q-surface-color: #ffe0b2;
+  --q-text-color: #4e342e;
+  --q-border-color: #ffcc80;
+
+  --q-primary-color: #ff7043;
+  --q-secondary-color: #ffb300;
+  --q-accent-color: #ff8a65;
+}
+
+// Midnight theme
+.theme-midnight {
+  --q-bg-color: #0d1b2a;
+  --q-surface-color: #1b263b;
+  --q-text-color: #e0e1dd;
+  --q-border-color: #415a77;
+
+  --q-primary-color: #0077b6;
+  --q-secondary-color: #00b4d8;
+  --q-accent-color: #90e0ef;
+}
+
+// Forest theme
+.theme-forest {
+  --q-bg-color: #0b3d0b;
+  --q-surface-color: #1f4e1f;
+  --q-text-color: #eafbea;
+  --q-border-color: #3a6b3a;
+
+  --q-primary-color: #2ecc71;
+  --q-secondary-color: #27ae60;
+  --q-accent-color: #a3e635;
+}
+
+// Energy theme
+.theme-energy {
+  --q-bg-color: #001f3f;
+  --q-surface-color: #003366;
+  --q-text-color: #00e6e6;
+  --q-border-color: #004d66;
+
+  --q-primary-color: #00bcd4;
+  --q-secondary-color: #ff4081;
+  --q-accent-color: #00e6e6;
+}

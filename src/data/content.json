@@ -1,0 +1,205 @@
+{
+  "company": {
+    "name": "MyxoFlow",
+    "tagline": "Decentralized Intelligence, Real Results",
+    "description": "Inspired by nature's most efficient problem-solver, the slime mold, MyxoFlow operates as a decentralized, adaptive, profit-driven network. We optimize workflows, deployment, and resources — without unnecessary corporate layers.",
+    "email": "hello@myxoflow.com",
+    "phone": "+31 (0) 20 123 4567",
+    "address": {
+      "street": "Innovation Hub",
+      "city": "Amsterdam",
+      "state": "North Holland",
+      "zip": "1012",
+      "country": "Netherlands"
+    },
+    "social": [
+      {
+        "platform": "github",
+        "url": "https://github.com/myxoflow",
+        "handle": "myxoflow"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/myxoflow",
+        "handle": "MyxoFlow"
+      }
+    ]
+  },
+  "hero": {
+    "badge": {
+      "icon": "🧬",
+      "text": "Nature-Inspired Intelligence"
+    },
+    "title": "Decentralized Intelligence, Real Results",
+    "subtitle": "Like a slime mold finding the fastest path, we optimize workflows, deployment, and resources across Europe — without corporate layers, hidden markups, or price-stupid assumptions.",
+    "highlights": [
+      "Decentralized Network",
+      "Fair Freelancer Pay",
+      "Global Supply Chain",
+      "30-Day Deployments"
+    ],
+    "cta": {
+      "primary": "Explore Solutions",
+      "secondary": "Become a Partner"
+    }
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "subtitle": "We challenge traditional business models with transparency and efficiency",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralized & Adaptive",
+        "description": "No corporate hierarchy. We operate as a single adaptive system inspired by slime mold intelligence — finding optimal paths in real-time."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair & Transparent",
+        "description": "Companies overcharge assuming users are 'price stupid.' We flip the model: transparency, efficiency, and fair compensation for everyone."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast & Accountable",
+        "description": "From idea to execution in 30 days. No bureaucracy, no delays — just results delivered by a resilient, accountable network."
+      }
+    ]
+  },
+  "team": {
+    "title": "The Core System",
+    "subtitle": "Two nodes, one adaptive intelligence",
+    "members": [
+      {
+        "name": "Bobby Seelam",
+        "role": "Founder & Product Lead",
+        "avatar": "/images/team/bobby.jpg",
+        "responsibilities": [
+          "Business strategy & ideation",
+          "Product design & content",
+          "Client relations & deployment oversight",
+          "Freelancer competition management",
+          "End-to-end execution"
+        ],
+        "bio": "Brings complete capability from idea to execution and client acquisition."
+      },
+      {
+        "name": "Saivinay Manda",
+        "role": "Full-Stack & AI Lead",
+        "avatar": "/images/team/saivinay.jpg",
+        "responsibilities": [
+          "Frontend & backend development",
+          "AI & automation systems",
+          "Neo4j dashboard architecture",
+          "Scalable software engineering",
+          "Reliable deployment infrastructure"
+        ],
+        "bio": "Builds intelligent systems that ensure real-time optimization and scalability."
+      }
+    ]
+  },
+  "network": {
+    "title": "Global Network, European Excellence",
+    "deployment": {
+      "title": "Deployment & Backfill",
+      "scope": "Europe-Wide",
+      "description": "All installation, backfill, and on-site services are delivered across Europe by vetted freelancers and our core team."
+    },
+    "supply": {
+      "title": "Suppliers & Manufacturing",
+      "scope": "Global Network",
+      "description": "Our supplier and factory network spans the globe, optimized for cost efficiency without unnecessary quality checks. Real-time optimization via Neo4j dashboards."
+    }
+  },
+  "operationalModel": {
+    "title": "How We Work",
+    "subtitle": "A simple, transparent, competitive process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Client Needs",
+        "description": "Define requirements for backfill, software deployment, or custom products. We clarify scope and timeline.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Competition Release",
+        "description": "Europe-based freelancers or partner companies bid on tasks. Fair competition ensures quality and efficiency.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Execution & Delivery",
+        "description": "Winners complete backfill coverage, deployments, or production. If no freelancer is available, our team handles it.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Payment & Results",
+        "description": "Freelancers receive guaranteed minimum pay (€150/day, fully insured). MyxoFlow earns via service fees and micro-margins.",
+        "icon": "payments"
+      }
+    ]
+  },
+  "partnerOpportunities": {
+    "title": "Partner, Don't Apply",
+    "subtitle": "We don't hire employees — we create equity partnerships",
+    "benefits": [
+      {
+        "icon": "handshake",
+        "title": "50% Equity Share",
+        "description": "Build solutions on our platform and earn 50% equity. Your innovation, our infrastructure."
+      },
+      {
+        "icon": "trending_up",
+        "title": "Market Opportunity",
+        "description": "Spot markets or workflows that benefit from decentralization. We help you optimize and scale."
+      },
+      {
+        "icon": "groups",
+        "title": "Autonomous Collaboration",
+        "description": "Work independently with full platform support. No corporate structure, just partnership."
+      }
+    ],
+    "ideal": "Ideal partners: Companies and professionals who see inefficiencies and want to solve them with decentralized intelligence."
+  },
+  "revenue": {
+    "title": "Revenue Model",
+    "streams": [
+      {
+        "name": "Freelancer Competitions",
+        "description": "Backfill gigs, installations, custom deployment tasks"
+      },
+      {
+        "name": "Service Fees",
+        "description": "Software deployments, cloud support, installation services"
+      },
+      {
+        "name": "Micro-Margins",
+        "description": "Merchandise, garments, custom product production"
+      },
+      {
+        "name": "Cloud/IaaS Subscriptions",
+        "description": "Recurring support for deployed systems and dashboards"
+      },
+      {
+        "name": "Partner Equity",
+        "description": "50% revenue share from partner-created solutions"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Forward-Looking Vision",
+    "goals": [
+      "Expand products with client-driven innovations",
+      "Launch articles section showcasing market insights and use-cases",
+      "Grow partner network with equity-sharing opportunities",
+      "Continuously optimize global supply and European deployment via Neo4j-powered dashboards"
+    ]
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Operations?",
+    "subtitle": "Join the decentralized network. No corporate layers, no hidden markups — just real results.",
+    "primary": "Get Started",
+    "secondary": "Become a Partner",
+    "guarantee": "Freelancers guaranteed €150/day minimum, fully insured. 30-day deployment guarantee."
+  }
+}

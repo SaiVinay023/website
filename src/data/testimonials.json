@@ -1,0 +1,102 @@
+{
+  "testimonials": [
+    {
+      "id": "sarah-chen-textilecorp",
+      "name": "Sarah Chen",
+      "role": "CTO",
+      "company": "TextileCorp Manufacturing",
+      "industry": "textile",
+      "content": "MyxoFlow transformed our manufacturing efficiency overnight. The direct developer support made all the difference - we were able to customize the platform exactly to our needs within weeks, not months. Production efficiency increased by 40% in our first quarter.",
+      "rating": 5,
+      "avatar": "/images/testimonials/sarah-chen.jpg",
+      "date": "2024-03-15",
+      "featured": true,
+      "metrics": {
+        "efficiency_increase": "40%",
+        "implementation_time": "3 weeks"
+      }
+    },
+    {
+      "id": "marcus-rodriguez-craftmasters",
+      "name": "Marcus Rodriguez",
+      "role": "Operations Manager",
+      "company": "CraftMasters Marketplace",
+      "industry": "marketplace",
+      "content": "The unified dashboard approach saved us months of development time and training costs. We saw immediate improvements across all our market verticals. Our vendor satisfaction increased by 45% and sales grew 30% in the first six months.",
+      "rating": 5,
+      "avatar": "/images/testimonials/marcus-rodriguez.jpg",
+      "date": "2024-02-28",
+      "featured": true,
+      "metrics": {
+        "vendor_satisfaction": "45%",
+        "sales_growth": "30%"
+      }
+    },
+    {
+      "id": "lisa-thompson-moderndating",
+      "name": "Lisa Thompson",
+      "role": "Founder & CEO",
+      "company": "ModernDating Platform",
+      "industry": "dating",
+      "content": "MyxoDate increased our match success rate by 73% and user retention by 68%. The AI-driven insights are incredibly powerful, and the team's responsiveness to our feedback has been exceptional. Premium conversions are up 125%.",
+      "rating": 5,
+      "avatar": "/images/testimonials/lisa-thompson.jpg",
+      "date": "2024-01-20",
+      "featured": true,
+      "metrics": {
+        "match_success": "73%",
+        "user_retention": "68%",
+        "premium_conversion": "125%"
+      }
+    },
+    {
+      "id": "david-park-freshfood",
+      "name": "David Park",
+      "role": "VP of Operations",
+      "company": "FreshFood Delivery",
+      "industry": "food",
+      "content": "Golgappa.inc revolutionized our food delivery operations. Delivery efficiency improved by 50%, and we reduced food waste by 35%. The real-time inventory management alone saved us over $200k in the first year.",
+      "rating": 5,
+      "avatar": "/images/testimonials/david-park.jpg",
+      "date": "2023-12-10",
+      "featured": false,
+      "metrics": {
+        "delivery_efficiency": "50%",
+        "waste_reduction": "35%",
+        "cost_savings": "$200k"
+      }
+    },
+    {
+      "id": "jennifer-wu-manufacturingplus",
+      "name": "Jennifer Wu",
+      "role": "Production Director",
+      "company": "ManufacturingPlus",
+      "industry": "manufacturing",
+      "content": "MyxoFill's predictive maintenance features prevented 3 major equipment failures last quarter. The cost savings from reduced downtime and optimized resource allocation have been substantial. ROI achieved in under 4 months.",
+      "rating": 5,
+      "avatar": "/images/testimonials/jennifer-wu.jpg",
+      "date": "2023-11-18",
+      "featured": false,
+      "metrics": {
+        "failures_prevented": "3",
+        "roi_time": "4 months"
+      }
+    },
+    {
+      "id": "alex-johnson-artisanhub",
+      "name": "Alex Johnson",
+      "role": "Marketplace Director",
+      "company": "ArtisanHub",
+      "industry": "craft",
+      "content": "MyxoCraft transformed our artisan marketplace. Vendor onboarding time decreased by 60%, and our quality assurance processes are now fully automated. Customer satisfaction scores improved by 40% across all categories.",
+      "rating": 5,
+      "avatar": "/images/testimonials/alex-johnson.jpg",
+      "date": "2023-10-25",
+      "featured": false,
+      "metrics": {
+        "onboarding_improvement": "60%",
+        "satisfaction_improvement": "40%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "performanceMetrics": {
+    "users": [
+      { "month": "Jan 2024", "value": 1200 },
+      { "month": "Feb 2024", "value": 1450 },
+      { "month": "Mar 2024", "value": 1650 },
+      { "month": "Apr 2024", "value": 1900 },
+      { "month": "May 2024", "value": 2200 },
+      { "month": "Jun 2024", "value": 2500 },
+      { "month": "Jul 2024", "value": 2850 },
+      { "month": "Aug 2024", "value": 3100 },
+      { "month": "Sep 2024", "value": 3400 },
+      { "month": "Oct 2024", "value": 3800 }
+    ],
+    "revenue": [
+      { "month": "Jan 2024", "value": 85000 },
+      { "month": "Feb 2024", "value": 92000 },
+      { "month": "Mar 2024", "value": 108000 },
+      { "month": "Apr 2024", "value": 125000 },
+      { "month": "May 2024", "value": 142000 },
+      { "month": "Jun 2024", "value": 165000 },
+      { "month": "Jul 2024", "value": 185000 },
+      { "month": "Aug 2024", "value": 210000 },
+      { "month": "Sep 2024", "value": 235000 },
+      { "month": "Oct 2024", "value": 268000 }
+    ],
+    "satisfaction": [
+      { "month": "Jan 2024", "value": 4.2 },
+      { "month": "Feb 2024", "value": 4.3 },
+      { "month": "Mar 2024", "value": 4.5 },
+      { "month": "Apr 2024", "value": 4.6 },
+      { "month": "May 2024", "value": 4.7 },
+      { "month": "Jun 2024", "value": 4.8 },
+      { "month": "Jul 2024", "value": 4.8 },
+      { "month": "Aug 2024", "value": 4.9 },
+      { "month": "Sep 2024", "value": 4.9 },
+      { "month": "Oct 2024", "value": 4.9 }
+    ]
+  },
+  "industryBenchmarks": {
+    "textile": {
+      "averageEfficiency": "70%",
+      "averageWaste": "25%",
+      "averageUptime": "85%",
+      "averageQuality": "78%"
+    },
+    "dating": {
+      "averageMatchRate": "30%",
+      "averageRetention": "40%",
+      "averageEngagement": "35%",
+      "averageConversion": "12%"
+    },
+    "manufacturing": {
+      "averageEfficiency": "68%",
+      "averageDowntime": "15%",
+      "averageCostReduction": "12%",
+      "averageROI": "18 months"
+    },
+    "marketplace": {
+      "averageFulfillment": "4.8 days",
+      "averageSatisfaction": "3.8/5",
+      "averageRetention": "72%",
+      "averageGrowth": "15%"
+    }
+  }
+}

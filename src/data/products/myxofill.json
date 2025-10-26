@@ -1,0 +1,137 @@
+{
+  "key": "myxofill",
+  "name": "MyxoFill",
+  "title": "Decentralized IT Field Technician Platform",
+  "tagline": "Eliminate middlemen. Empower technicians. Connect directly.",
+  "background": {
+    "headline": "Fragmented IT Field Service Ecosystem",
+    "summary": "The IT on-site support market is dominated by subcontracting layers that absorb 70–85% of client budgets while technicians earn a fraction. Communication bottlenecks, data leakage, and late payments plague efficiency.",
+    "insight": "MyxoFill reinvents this model by cutting out intermediaries and giving both sides what they need — direct access, verified credentials, and fair compensation."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Opaque subcontracting chains block transparency.",
+      "Technicians have no access to real contract value or client info.",
+      "Communication delays cascade through multi-layer handoffs.",
+      "Data passes through too many subcontractors, raising breach risk.",
+      "80% of freelancers face payment delays; agencies hold invoices hostage.",
+      "No merit-based skill scoring; unqualified labor undermines trust.",
+      "Agencies exploit dependency — contractors earn less with each renewal."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Businesses seek cost reduction and accountability. Technicians seek reliable payment and independence. MyxoFill builds a verified network linking both.",
+    "dataPoints": [
+      "47% of the global workforce will be freelance by 2025 (Worksme.com).",
+      "8 in 10 freelancers report late or partial pay (grey.co).",
+      "78% of CFOs are targeting cost efficiency under inflation (EPAM survey)."
+    ]
+  },
+  "solution": {
+    "headline": "Our Transparent Platform Solution",
+    "description": "MyxoFill introduces a field-service marketplace where verified freelancers meet clients directly through transparent contracts, secure communication, and automated payments.",
+    "coreFeatures": [
+      {
+        "title": "Mobile-Optimized Dashboard",
+        "text": "Technicians and clients manage jobs via mobile or desktop UI — no complex dispatch system required."
+      },
+      {
+        "title": "Location- & Skill-Based Job Posting",
+        "text": "Jobs broadcast automatically to nearby verified techs. The system splits large tasks into smaller, trackable assignments."
+      },
+      {
+        "title": "Transparent Bidding",
+        "text": "All bids are visible; clients choose based on skill, not intermediaries. The system flags unfairly low offers to prevent race-to-bottom pricing."
+      },
+      {
+        "title": "Skill Validation & Ratings",
+        "text": "Gamified skill quizzes, verified experience, and customer feedback form a visible merit profile."
+      },
+      {
+        "title": "Escrow Payments & Invoicing",
+        "text": "Funds are automatically released upon task completion verification — ending months-long invoice chains."
+      },
+      {
+        "title": "Secure Communication Channels",
+        "text": "All messages, photos, and project files are encrypted and stored within MyxoFlow's EU-based infrastructure."
+      },
+      {
+        "title": "Continuous Skills Growth",
+        "text": "Technicians earn recommendations for upskilling and gain higher match visibility through consistent success."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Before vs After: Traditional vs MyxoFill",
+    "items": [
+      {
+        "aspect": "Pricing",
+        "traditional": "Multiple vendors markup, opaque costs",
+        "myxofill": "Flat fee, open bidding, verified pay breakdown"
+      },
+      {
+        "aspect": "Hiring",
+        "traditional": "Manual dispatch and favoritism",
+        "myxofill": "Automated merit-based AI matching"
+      },
+      {
+        "aspect": "Payments",
+        "traditional": "30–90 day invoice cycles",
+        "myxofill": "Instant escrow release upon completion"
+      },
+      {
+        "aspect": "Data Handling",
+        "traditional": "Leaky multi-party access",
+        "myxofill": "Single encrypted environment, clear audit log"
+      },
+      {
+        "aspect": "Accountability",
+        "traditional": "Diffused across subcontractors",
+        "myxofill": "Direct one-to-one contracts with milestone tracking"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Restoring Real Market Efficiency",
+    "principles": [
+      {
+        "title": "Merit over Bureaucracy",
+        "description": "Technicians climb ranks based on verified competence, not connections."
+      },
+      {
+        "title": "Transparency over Secrecy",
+        "description": "All tasks, rates, and feedback are open and traceable — no hidden terms."
+      },
+      {
+        "title": "Efficiency over Redundancy",
+        "description": "Process automation reduces administrative drag and liberates profit for real specialists."
+      },
+      {
+        "title": "Skill Development",
+        "description": "Every completed task contributes to a personal growth profile and next-level opportunities."
+      }
+    ],
+    "summary": "MyxoFill embodies fair capitalism — redistributing value from bureaucracy to contribution."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Technician earnings increase by 80% on average.",
+      "Corporate service costs reduced by 50–70%.",
+      "Invoice payment time cut from 45 days to 0 via escrow.",
+      "Task assignment time reduced from hours to seconds through automation."
+    ]
+  },
+  "whyNow": [
+    "Inflation pushes enterprises to trim costs.",
+    "Huge surge in global freelance IT experts post-2023.",
+    "EU regulatory frameworks now protect platform workers.",
+    "Escrow, ID verification, and AI matching are mainstream technologies."
+  ],
+  "sources": [
+    "fieldez.com",
+    "worksome.com",
+    "grey.co",
+    "fisherphillips.com",
+    "identitymanagementinstitute.org"
+  ]
+}

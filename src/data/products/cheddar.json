@@ -1,0 +1,215 @@
+{
+  "key": "cheddar",
+  "name": "Cheddar",
+  "title": "Members-Only Dating with Dynamic Pricing",
+  "tagline": "Verified Connections. Real Results.",
+  "background": {
+    "headline": "The Dating Quality Challenge",
+    "summary": "Traditional dating apps rely on opaque algorithms and flood users with low-quality profiles, bots, and data-mining schemes. Many serious daters give up after swiping through hundreds of inactive or unserious accounts.",
+    "insight": "Cheddar flips the model: use market dynamics to maintain a balanced pool of verified users who genuinely want to connect. Pricing throttles new sign-ups to prevent overcrowding and time-wasting."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Algorithmic matching hides true availability and biases engagement metrics",
+      "Unverified profiles and bots undermine trust and safety",
+      "Oversupply on one side of the market leads to poor match rates",
+      "Data-selling business models erode user privacy",
+      "High churn as users abandon apps after low-quality experiences",
+      "Complex feature sets inflate development and hosting costs"
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Daters crave authenticity, transparency, and safety. By prioritizing verification and capacity balance, Cheddar delivers a superior experience with lower operational costs.",
+    "dataPoints": [
+      "ID and selfie verification reduces catfishing by over 70%",
+      "Dynamic pricing models are proven in ride-share and ticketing industries",
+      "Dating-app churn rates exceed 50% monthly on average",
+      "Users willing to pay for safety and quality: 60% open to subscription fees",
+      "Algorithm fatigue: 45% of users distrust recommendation engines"
+    ]
+  },
+  "solution": {
+    "headline": "Cheddar: Market-Driven Membership",
+    "description": "Cheddar uses dynamic membership pricing and strict verification to keep its community serious and balanced. No hidden algorithms—just a transparent pool of verified singles who value real connections.",
+    "coreFeatures": [
+      {
+        "title": "Dynamic Capacity Management",
+        "text": "Membership fees adjust based on real-time demand to maintain gender and engagement balance."
+      },
+      {
+        "title": "ID & Liveness Verification",
+        "text": "Government ID check plus in-app camera-only liveness capture ensures every profile is authentic."
+      },
+      {
+        "title": "Transparent Discovery Tools",
+        "text": "Age, location, and preference filters; proximity sorting; recent activity indicators—all user-driven."
+      },
+      {
+        "title": "Referral-Driven Growth",
+        "text": "Members earn credits by referring friends, fueling sustainable community expansion."
+      },
+      {
+        "title": "Results-Oriented Design",
+        "text": "No swipes, no hidden ranking—members see the full pool and connect by choice, not algorithm."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditional Apps vs Cheddar",
+    "items": [
+      {
+        "aspect": "Match Discovery",
+        "traditional": "Algorithmic recommendations based on opaque scoring",
+        "cheddar": "Full pool visibility with user-controlled filters"
+      },
+      {
+        "aspect": "Verification",
+        "traditional": "Optional or no verification; heavy bot presence",
+        "cheddar": "Mandatory ID + selfie liveness for all members"
+      },
+      {
+        "aspect": "Supply Control",
+        "traditional": "Unlimited signups leading to overcrowded pools",
+        "cheddar": "Dynamic pricing throttles sign-ups to maintain balance"
+      },
+      {
+        "aspect": "Privacy",
+        "traditional": "Data-selling and third-party tracking",
+        "cheddar": "No data selling; minimal collection; clear retention policies"
+      },
+      {
+        "aspect": "Cost Structure",
+        "traditional": "Free with premium tiers or ad-funded",
+        "cheddar": "Transparent subscription with market-driven rate"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Empowering Intentional Daters",
+    "principles": [
+      {
+        "title": "Transparency Over Tactics",
+        "description": "Open pricing and discovery tools build trust and user control."
+      },
+      {
+        "title": "Verification Over Guesswork",
+        "description": "Rigorous identity checks eliminate bots and fake profiles."
+      },
+      {
+        "title": "Sustainability Over Scale",
+        "description": "Balanced capacity ensures meaningful interactions, not endless swiping."
+      },
+      {
+        "title": "Privacy Over Profit",
+        "description": "No data-selling; user data is protected and purged on schedule."
+      }
+    ],
+    "summary": "Cheddar is reshaping online dating by focusing on market dynamics, safety, and user empowerment rather than engagement algorithms."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "70% reduction in bots and fake profiles after verification",
+      "50%+ lower churn due to balanced user pools",
+      "30% faster connections as quality increases",
+      "High willingness to pay: 60% positive trial conversion",
+      "Operational costs cut by 50% versus algorithmic platforms"
+    ]
+  },
+  "useCases": {
+    "title": "Ideal for Serious Daters",
+    "scenarios": [
+      {
+        "type": "Professionals Seeking Efficiency",
+        "description": "Busy individuals who want a verified pool and transparent tools to quickly find compatible partners."
+      },
+      {
+        "type": "Privacy-Conscious Users",
+        "description": "Those who refuse to trade personal data for matching and demand strict retention policies."
+      },
+      {
+        "type": "Disillusioned Swipers",
+        "description": "Users tired of endless swiping and algorithm fatigue, seeking a streamlined experience."
+      },
+      {
+        "type": "Community Builders",
+        "description": "Early adopters who refer friends and help maintain a high-quality, engaged community."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Cheddar Works",
+    "items": [
+      {
+        "benefit": "Balanced Pools",
+        "description": "Dynamic pricing ensures neither side is overwhelmed, improving match rates."
+      },
+      {
+        "benefit": "Genuine Profiles",
+        "description": "Mandatory verification builds trust and safety across the community."
+      },
+      {
+        "benefit": "User Control",
+        "description": "Transparent tools let members drive their own discovery."
+      },
+      {
+        "benefit": "Privacy Assurance",
+        "description": "No data selling and strict retention keep personal information safe."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Cheddar’s Competitive Edge",
+    "points": [
+      {
+        "title": "Market-Based Pricing",
+        "description": "Real-time fee adjustments maintain optimal engagement ratios."
+      },
+      {
+        "title": "Verification Focus",
+        "description": "All members pass ID and liveness checks—industry best practice."
+      },
+      {
+        "title": "Lean Architecture",
+        "description": "No AI/ML servers means lower hosting costs and faster development cycles."
+      },
+      {
+        "title": "Referral Economics",
+        "description": "Members drive growth through referrals, reducing CAC."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "4 Steps to Membership",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Apply",
+        "description": "Submit basic profile and choose your membership option."
+      },
+      {
+        "number": "02",
+        "title": "Verify",
+        "description": "Complete ID + camera-only liveness capture for instant approval."
+      },
+      {
+        "number": "03",
+        "title": "Join Pool",
+        "description": "Gain access to the active member roster; engage via transparent discovery."
+      },
+      {
+        "number": "04",
+        "title": "Connect & Exit",
+        "description": "Message directly, form connections, and exit with referral credits for friends."
+      }
+    ]
+  },
+  "whyNow": [
+    "Users demand authenticity amid algorithm fatigue",
+    "Verification tech is mature and cost-effective",
+    "Subscription models have widespread acceptance",
+    "Privacy regulations favor minimal data collection",
+    "Referral-driven growth reduces acquisition costs"
+  ],
+  "conclusion": "Cheddar redefines online dating by blending market-driven membership, rigorous verification, and transparent discovery. It offers a high-quality, privacy-first platform for intentional connections.",
+  "sources": []
+}

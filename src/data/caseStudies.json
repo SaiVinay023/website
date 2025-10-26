@@ -1,0 +1,157 @@
+{
+  "caseStudies": [
+    {
+      "id": "textilecorp-manufacturing",
+      "client": "TextileCorp Manufacturing",
+      "industry": "Textile Manufacturing",
+      "industryKey": "textile",
+      "challenge": "Manual production tracking led to 30% waste, inconsistent quality control across 5 facilities, and inability to predict maintenance needs. Operations were reactive rather than proactive.",
+      "solution": "Implemented StichFlow with real-time monitoring, automated quality control, predictive maintenance, and unified dashboard across all facilities. Integrated with existing ERP systems.",
+      "results": [
+        "40% increase in overall production efficiency",
+        "25% reduction in material waste and costs",
+        "60% improvement in quality consistency scores",
+        "50% reduction in unplanned equipment downtime",
+        "ROI achieved within 3 months of implementation"
+      ],
+      "quote": "StichFlow revolutionized our operations. We achieved ROI within 3 months and continue to see improvements every quarter. The direct developer support has been invaluable.",
+      "metrics": [
+        {
+          "label": "Production Efficiency",
+          "before": "65%",
+          "after": "91%",
+          "improvement": "+40%",
+          "unit": "efficiency score"
+        },
+        {
+          "label": "Material Waste",
+          "before": "30%",
+          "after": "7%",
+          "improvement": "-77%",
+          "unit": "waste percentage"
+        },
+        {
+          "label": "Quality Consistency",
+          "before": "72%",
+          "after": "95%",
+          "improvement": "+32%",
+          "unit": "quality score"
+        },
+        {
+          "label": "Equipment Downtime",
+          "before": "120 hrs/month",
+          "after": "24 hrs/month",
+          "improvement": "-80%",
+          "unit": "hours per month"
+        }
+      ],
+      "image": "/images/case-studies/textilecorp.jpg",
+      "duration": "3 months implementation",
+      "featured": true,
+      "tags": ["manufacturing", "automation", "roi"],
+      "publishedDate": "2024-03-15"
+    },
+    {
+      "id": "moderndating-platform",
+      "client": "ModernDating Platform",
+      "industry": "Dating & Social Platforms",
+      "industryKey": "dating",
+      "challenge": "Low match success rate (25%), declining user engagement, high churn rates (65%), and poor premium conversion rates. Existing algorithms were not effective.",
+      "solution": "Deployed MyxoDate with advanced ML matching algorithms, user behavior analytics, engagement optimization tools, and A/B testing framework for continuous improvement.",
+      "results": [
+        "73% match success rate (192% improvement)",
+        "68% user retention rate (94% improvement)",
+        "85% increase in daily active users",
+        "125% increase in premium conversions",
+        "Revenue doubled within 6 months"
+      ],
+      "quote": "MyxoDate transformed our platform completely. Users are happier, engagement is through the roof, and our revenue has doubled. The AI matching is incredibly sophisticated.",
+      "metrics": [
+        {
+          "label": "Match Success Rate",
+          "before": "25%",
+          "after": "73%",
+          "improvement": "+192%",
+          "unit": "success rate"
+        },
+        {
+          "label": "User Retention",
+          "before": "35%",
+          "after": "68%",
+          "improvement": "+94%",
+          "unit": "retention rate"
+        },
+        {
+          "label": "Premium Conversion",
+          "before": "8%",
+          "after": "18%",
+          "improvement": "+125%",
+          "unit": "conversion rate"
+        },
+        {
+          "label": "Daily Active Users",
+          "before": "12k",
+          "after": "22k",
+          "improvement": "+83%",
+          "unit": "active users"
+        }
+      ],
+      "image": "/images/case-studies/moderndating.jpg",
+      "duration": "2 months implementation",
+      "featured": true,
+      "tags": ["dating", "ai", "engagement"],
+      "publishedDate": "2024-02-15"
+    },
+    {
+      "id": "craftmasters-marketplace",
+      "client": "CraftMasters Marketplace",
+      "industry": "E-commerce & Marketplaces",
+      "industryKey": "marketplace",
+      "challenge": "Fragmented vendor management, inefficient order fulfillment (5.2 days average), low customer satisfaction (3.2/5), and high support ticket volume.",
+      "solution": "Implemented MyxoCraft with unified vendor dashboard, automated order routing, quality assurance workflows, customer experience optimization, and integrated support system.",
+      "results": [
+        "54% faster order fulfillment (2.4 days average)",
+        "45% increase in vendor satisfaction scores",
+        "44% improvement in customer ratings (4.6/5)",
+        "60% reduction in support tickets",
+        "30% increase in marketplace revenue"
+      ],
+      "quote": "The unified platform approach made managing our marketplace incredibly efficient. Both vendors and customers love the streamlined experience.",
+      "metrics": [
+        {
+          "label": "Order Fulfillment Time",
+          "before": "5.2 days",
+          "after": "2.4 days",
+          "improvement": "-54%",
+          "unit": "days average"
+        },
+        {
+          "label": "Customer Satisfaction",
+          "before": "3.2/5",
+          "after": "4.6/5",
+          "improvement": "+44%",
+          "unit": "rating score"
+        },
+        {
+          "label": "Vendor Retention",
+          "before": "68%",
+          "after": "89%",
+          "improvement": "+31%",
+          "unit": "retention rate"
+        },
+        {
+          "label": "Support Tickets",
+          "before": "450/month",
+          "after": "180/month",
+          "improvement": "-60%",
+          "unit": "tickets per month"
+        }
+      ],
+      "image": "/images/case-studies/craftmasters.jpg",
+      "duration": "6 weeks implementation",
+      "featured": true,
+      "tags": ["marketplace", "automation", "satisfaction"],
+      "publishedDate": "2024-01-20"
+    }
+  ]
+}

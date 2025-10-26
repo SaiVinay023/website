@@ -1,0 +1,322 @@
+/* =======================
+   GLOBAL VARIABLES / DESIGN TOKENS
+   ======================= */
+$primary-gradient: linear-gradient(
+  135deg,
+  #1a1a2e 0%,
+  #16213e 50%,
+  #0f3460 100%
+);
+$secondary-gradient: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+$card-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+$card-hover-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+$radius-lg: 20px;
+$radius-md: 16px;
+$radius-sm: 12px;
+
+$font-primary: "Roboto", sans-serif;
+
+$break-lg: 1024px;
+$break-md: 768px;
+$break-sm: 480px;
+
+/* =======================
+   BODY & GLOBAL TRANSITIONS
+   ======================= */
+body {
+  font-family: $font-primary;
+  margin: 0;
+  color: var(--q-text-color);
+  background-color: var(--q-bg-color);
+  transition:
+    color 0.4s ease,
+    background-color 0.4s ease;
+}
+
+/* =======================
+   HEADERS, FOOTERS, TOOLBARS
+   ======================= */
+.q-toolbar,
+.q-header,
+.q-footer {
+  background-color: var(--q-surface-color) !important;
+  color: var(--q-text-color) !important;
+  border-color: var(--q-border-color);
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+  backdrop-filter: blur(8px);
+}
+
+/* =======================
+   CARDS, PAGES, DRAWERS
+   ======================= */
+.q-card,
+.q-page,
+.q-drawer {
+  background-color: var(--q-surface-color) !important;
+  color: var(--q-text-color) !important;
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+/* =======================
+   TYPOGRAPHY
+   ======================= */
+.h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.p {
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+/* =======================
+   FLEX & GRID UTILITIES
+   ======================= */
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+// Flex gap mixin
+@mixin flex-gap($gap) {
+  gap: $gap;
+}
+
+// Grid mixin
+@mixin grid($min, $gap: 32px) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+  gap: $gap;
+}
+
+/* =======================
+   BUTTONS
+   ======================= */
+.btn {
+  border-radius: $radius-md;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+
+  &.primary {
+    background: var(--q-primary-color);
+    color: white;
+  }
+  &.secondary {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+/* =======================
+   CARDS (BASE)
+   ======================= */
+.card {
+  background: white;
+  border-radius: $radius-lg;
+  padding: 40px;
+  box-shadow: $card-shadow;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: $card-hover-shadow;
+  }
+
+  &.featured {
+    border: 2px solid var(--q-primary-color);
+    box-shadow: 0 12px 48px rgba(var(--q-primary-rgb), 0.15);
+  }
+
+  .card-header {
+    margin-bottom: 24px;
+  }
+  .card-body {
+    margin-bottom: 20px;
+  }
+  .card-footer {
+    margin-top: 20px;
+  }
+}
+
+/* =======================
+   SECTIONS
+   ======================= */
+section {
+  padding: 100px 0;
+
+  &.hero {
+    background: $primary-gradient;
+    color: white;
+    text-align: center;
+  }
+  &.vision,
+  &.philosophy,
+  &.partners {
+    background: $secondary-gradient;
+  }
+  &.products {
+    background: #f8f9fa;
+  }
+  &.network,
+  &.revenue {
+    background: var(--q-dark);
+    color: white;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 72px;
+
+  h2 {
+    @extend .h2;
+    margin-bottom: 20px;
+    color: var(--q-dark);
+  }
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    opacity: 0.7;
+  }
+}
+
+/* =======================
+   HERO PATTERN
+   ======================= */
+.hero-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      #fff 50px,
+      #fff 51px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      #fff 50px,
+      #fff 51px
+    );
+  pointer-events: none;
+}
+
+/* =======================
+   SLIME MOLD BACKGROUND
+   ======================= */
+#slime-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  transform-origin: center center;
+  transition:
+    transform 1.5s ease,
+    filter 1.5s ease;
+  pointer-events: none;
+}
+
+#slime-bg svg {
+  width: 120%;
+  height: 120%;
+  transform-origin: center center;
+
+}
+
+/* =======================
+   TUBELIGHT BUTTON
+   ======================= */
+.tubelight-fixed {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 2000;
+}
+
+.tubelight-btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.theme-icon {
+  width: 24px;
+  height: 24px;
+  transition:
+    transform 0.2s ease,
+    opacity 0.3s ease;
+}
+
+.tubelight-btn:hover .theme-icon {
+  transform: rotate(20deg);
+}
+
+/* =======================
+   RESPONSIVE BREAKPOINTS
+   ======================= */
+@media (max-width: $break-lg) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: $break-md) {
+  .h1 {
+    font-size: 42px;
+  }
+  .h2 {
+    font-size: 36px;
+  }
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: $break-sm) {
+  .h1 {
+    font-size: 32px;
+  }
+  .h2 {
+    font-size: 28px;
+  }
+}

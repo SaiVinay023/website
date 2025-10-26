@@ -1,0 +1,244 @@
+{
+  "key": "kitchenos",
+  "name": "KitchenOS",
+  "title": "Smart Kitchen Operating System for Restaurants",
+  "tagline": "One unified platform. Every order channel. Total kitchen control.",
+  "background": {
+    "headline": "The Modern Restaurant Challenge",
+    "summary": "Modern restaurants face soaring labor costs (18.3% higher post-pandemic) and food costs (21.8% higher in the U.S.). Meanwhile, customers demand fast, accurate service: over 70% prefer self-ordering technology. The explosion of delivery and ghost kitchens adds complexity—the global virtual kitchen market grew from $65.3B (2023) to a projected $155.5B by 2030 (13% CAGR).",
+    "insight": "To thrive, restaurants must cut waste, reduce staff workload, and integrate multiple order channels—all with minimal overhead. KitchenOS solves this with unified automation and AI-driven intelligence."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Labor is expensive and scarce—turnover costs exceed 200% of salary",
+      "Restaurants juggle dine-in, takeout, delivery apps manually—error-prone",
+      "Inventory management is manual—leading to waste and stockouts",
+      "No unified view of sales, staffing, and supply needs",
+      "Phone ordering ties up staff; self-ordering tech adoption is uneven",
+      "Multi-site chains struggle with consistency and compliance"
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Restaurants need automation to survive thin margins. Labor and costs are up, delivery is exploding, and customers want digital convenience. KitchenOS addresses all three with proven ROI.",
+    "dataPoints": [
+      "70%+ of diners prefer self-ordering over human servers",
+      "Virtual kitchen market: $65.3B (2023) → $155.5B (2030), 13% CAGR",
+      "QSR chains represent 38% of restaurant tech spending",
+      "Automating inventory can yield 10× ROI ($100/mo subscription = $1,000 savings)",
+      "Labor turnover costs 200%+ of worker salary—automation improves retention"
+    ]
+  },
+  "solution": {
+    "headline": "KitchenOS: Your Restaurant Command Center",
+    "description": "KitchenOS connects to your existing POS, kitchen displays, scheduling tools, and delivery platforms. It overlays AI-driven intelligence to create a unified command center for any restaurant kitchen.",
+    "coreFeatures": [
+      {
+        "title": "Omnichannel Order Management",
+        "text": "All orders—dine-in, mobile apps, web, third-party delivery—flow into one cloud-based dashboard. Staff view and manage orders from every source in real time."
+      },
+      {
+        "title": "Real-Time Kitchen Display (KDS)",
+        "text": "Orders instantly route to digital kitchen displays. Staff see prep timers, item details, and priority rules—eliminating paper tickets and manual coordination."
+      },
+      {
+        "title": "Automated Inventory & Procurement",
+        "text": "Track ingredient stock and forecast needs. When levels run low, KitchenOS auto-generates orders or supplier alerts—slashing food waste and stockouts."
+      },
+      {
+        "title": "AI-Driven Forecasting & Analytics",
+        "text": "Dynamic dashboards display sales trends, peak hours, and profitability. Machine learning suggests menu mix changes, demand forecasting, and staffing adjustments."
+      },
+      {
+        "title": "Staff Scheduling & Payroll",
+        "text": "Auto-generate shift plans from past POS activity. Push payroll hours directly from the system—reducing overtime and freeing managers to focus on service."
+      },
+      {
+        "title": "Self-Service Ordering & Voice Bots",
+        "text": "Connect to tablet kiosks, mobile apps, or voice assistants. Orders feed directly into KitchenOS—improving accuracy and collecting valuable order data."
+      },
+      {
+        "title": "Customer Engagement & Loyalty",
+        "text": "Track guest preferences, launch targeted promotions, and integrate digital loyalty programs to boost repeat business and higher check averages."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditional Operations vs KitchenOS",
+    "items": [
+      {
+        "aspect": "Order Management",
+        "traditional": "Manual entry across multiple systems; high error rate",
+        "myxofill": "Unified cloud dashboard for all channels; automated routing"
+      },
+      {
+        "aspect": "Kitchen Workflow",
+        "traditional": "Paper tickets, manual coordination, unclear priorities",
+        "myxofill": "Real-time digital KDS with smart prioritization and timers"
+      },
+      {
+        "aspect": "Inventory Tracking",
+        "traditional": "Manual counts, spreadsheets, frequent stockouts",
+        "myxofill": "Automated real-time tracking with AI forecasting and auto-reorder"
+      },
+      {
+        "aspect": "Staff Scheduling",
+        "traditional": "Manual schedule creation, reactive staffing",
+        "myxofill": "AI-generated schedules based on sales data; integrated payroll"
+      },
+      {
+        "aspect": "Analytics",
+        "traditional": "End-of-day manual reports; no predictive insights",
+        "myxofill": "Live dashboards with AI-powered forecasting and recommendations"
+      },
+      {
+        "aspect": "Customer Ordering",
+        "traditional": "Phone orders tie up staff; manual entry errors",
+        "myxofill": "Self-service kiosks, mobile apps, voice bots—direct to kitchen"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Empowering Kitchen Teams",
+    "principles": [
+      {
+        "title": "Automation over Manual Labor",
+        "description": "Free staff from repetitive tasks so they can focus on cooking and service—not paperwork and phone calls."
+      },
+      {
+        "title": "Intelligence over Guesswork",
+        "description": "AI-driven insights help owners optimize menus, staffing, and inventory in real time—not weeks later."
+      },
+      {
+        "title": "Integration over Fragmentation",
+        "description": "One platform connects all systems—POS, delivery apps, suppliers, staff—eliminating data silos and errors."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "KitchenOS learns from every shift, suggesting optimizations that compound over time for sustained profitability."
+      }
+    ],
+    "summary": "KitchenOS isn't just software—it's a partner that makes your kitchen smarter, leaner, and more profitable every day."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Cut labor costs by automating routine tasks—save at least one server per shift",
+      "Reduce food waste by 5-10% through precise demand forecasting",
+      "Increase throughput with faster, more accurate order handling",
+      "Boost staff productivity and retention by removing tedious tasks",
+      "Achieve 8%+ profit increase through operational optimization",
+      "ROI within months: $100/mo tech fee can return $1,000/mo in savings"
+    ]
+  },
+  "useCases": {
+    "title": "Perfect For Every Kitchen Type",
+    "scenarios": [
+      {
+        "type": "Fine-Dining & Full-Service Restaurants",
+        "description": "Coordinate complex multi-course service with minimal mistakes. Front and back-of-house sync seamlessly—tableside orders push to kitchen in real time, inventory auto-updates, and managers view all locations' performance."
+      },
+      {
+        "type": "Ghost & Cloud Kitchens",
+        "description": "Manage multiple virtual brands from one kitchen. KitchenOS treats each brand as a separate menu within the same platform, routing orders from all delivery apps with real-time tracking."
+      },
+      {
+        "type": "Tech-Savvy Chains & QSRs",
+        "description": "Standardize operations across outlets. Cloud-based system enforces uniform recipes, pricing, and compliance. Open APIs integrate with existing POS or loyalty systems for a unified tech stack."
+      },
+      {
+        "type": "Independent & Casual Eateries",
+        "description": "Affordable automation for small restaurants. QR-code ordering, simple tablet kiosks, and automated tasks that used to require dedicated staff—save labor and boost efficiency."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Tangible ROI: Real Savings, Real Growth",
+    "items": [
+      {
+        "benefit": "Cut Labor Costs",
+        "description": "Automate routine tasks—phone orders, scheduling, inventory—so you need fewer staff. Operators report $1,000/mo savings from $100/mo tech investment."
+      },
+      {
+        "benefit": "Reduce Food Waste",
+        "description": "Precise demand forecasting and inventory alerts cut spoilage. Even a few percent reduction in waste is pure profit for thin-margin restaurants."
+      },
+      {
+        "benefit": "Increase Throughput",
+        "description": "Faster, more accurate order handling means more covers per night. Customer satisfaction rises with quicker service and fewer errors."
+      },
+      {
+        "benefit": "Improve Staff Productivity",
+        "description": "Automation removes tedious tasks, boosting morale and retention. Managers focus on guests, not paperwork."
+      },
+      {
+        "benefit": "Data-Driven Growth",
+        "description": "Real-time dashboards spot top-selling items, optimize menu pricing, and quickly replicate successes across locations."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Why Choose KitchenOS?",
+    "points": [
+      {
+        "title": "Industry Focus",
+        "description": "Deep expertise in kitchen workflows means features that exactly match restaurant needs—from expeditor timers to prep-chart analytics."
+      },
+      {
+        "title": "Ease of Integration",
+        "description": "Cloud-native with open APIs. Plug into existing POS hardware, payment gateways, and delivery apps without replacing everything."
+      },
+      {
+        "title": "Practical ROI",
+        "description": "Prioritizes revenue-generating features over complex BI. The system pays for itself through labor savings and higher sales—often within months."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "AI-powered recommendations (menu tweaks, staffing alerts) so restaurants keep getting smarter over time. Not a static tool—it adapts to your business."
+      },
+      {
+        "title": "MyxoFlow Pedigree",
+        "description": "Built by industry veterans with proven track record (StichFlow, MyxoFill). Not a one-size-fits-all POS—tailored to restaurant operations."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Implementation in 4 Simple Steps",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Setup",
+        "description": "Connect KitchenOS to your POS, kitchen displays, and supplier accounts. Enter your menu, recipes, and business rules. Training and onboarding support included."
+      },
+      {
+        "number": "02",
+        "title": "Real-Time Operation",
+        "description": "During service, orders from all channels flow into KitchenOS. Chefs and servers use KDS and mobile tablets to track order progress. Inventory updates automatically."
+      },
+      {
+        "number": "03",
+        "title": "Analysis & Alerts",
+        "description": "After each shift, managers review dashboards. KitchenOS highlights trends and sends alerts (e.g., 'dish X selling fast, reorder ingredient Y')."
+      },
+      {
+        "number": "04",
+        "title": "Optimization",
+        "description": "Based on insights, adjust staffing plans or menu pricing. AI engine suggests optimizations. Repeat the cycle with continuous data feedback."
+      }
+    ]
+  },
+  "whyNow": [
+    "Labor costs up 18.3%, food costs up 21.8% post-pandemic—automation is essential",
+    "70%+ of diners prefer self-ordering—tech adoption is now table stakes",
+    "Virtual kitchen market growing 13% annually to $155.5B by 2030",
+    "QSR chains spending 38% of tech budgets on kitchen automation",
+    "Proven ROI: $100/mo investment returns $1,000/mo in savings",
+    "Labor turnover costs 200%+ of salary—automation improves retention"
+  ],
+  "conclusion": "KitchenOS by MyxoFlow is a proven, all-in-one kitchen operating system that makes restaurants more efficient, profitable, and easier to manage. It addresses current market pressures with practical automation and analytics. Operators can expect immediate gains in throughput and cost control, plus long-term benefits as the system continuously optimizes itself.",
+  "sources": [
+    "Oracle restaurant tech reports",
+    "Industry labor and food cost data (U.S. post-pandemic)",
+    "Virtual kitchen market projections (2023-2030)",
+    "QSR tech spending analysis",
+    "Restaurant automation case studies"
+  ]
+}

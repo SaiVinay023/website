@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "title": "General Questions",
+      "questions": [
+        {
+          "question": "What is MyxoFlow and how does it work?",
+          "answer": "MyxoFlow is a Dashboard technology platform that enables businesses to rapidly expand and optimize operations across different market verticals. Our platform provides consistent interfaces and shared optimization benefits.",
+          "tags": ["general", "platform"]
+        },
+        {
+          "question": "How does the dashboard approach benefit my business?",
+          "answer": "Our platform provides consistent interface and shared optimization benefits across all market solutions. Improvements in one area automatically benefit all your operations, reducing training time and maximizing efficiency.",
+          "tags": ["benefits", "dashboard"]
+        },
+        {
+          "question": "What markets and industries do you currently support?",
+          "answer": "We currently support textiles and fashion, manufacturing, dating platforms, food services, crafts and handmade goods, with new verticals added regularly based on demand.",
+          "tags": ["markets", "industries"]
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "questions": [
+        {
+          "question": "How long does implementation typically take?",
+          "answer": "Most implementations are completed within 2-4 weeks, depending on your specific requirements, data migration needs, and integration complexity. Simple setups can be done in under 48 hours.",
+          "tags": ["implementation", "timeline"]
+        },
+        {
+          "question": "What kind of technical support do you provide?",
+          "answer": "We provide direct developer support with no account managers. You work directly with our technical team for rapid iteration, problem-solving, and feature requests.",
+          "tags": ["support", "developers"]
+        }
+      ]
+    },
+    {
+      "title": "Pricing & Plans",
+      "questions": [
+        {
+          "question": "How is your pricing structured?",
+          "answer": "Pricing is based on your specific market vertical, user count, and feature requirements. We offer transparent pricing with clear ROI projections and no hidden fees.",
+          "tags": ["pricing", "cost"]
+        },
+        {
+          "question": "Do you offer a free trial?",
+          "answer": "Yes, we do not offer any free trial. If you buy, you get full access to platform features, dedicated setup assistance, and direct developer support to ensure success.",
+          "tags": ["trial", "free"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "products": [
+    {
+      "key": "myxofill",
+      "name": "MyxoFill",
+      "tagline": "Transparent Workforce Backfill Platform",
+      "description": "Europe-wide marketplace connecting businesses directly with verified IT technicians. Eliminates subcontracting layers, ensures fair pay, fast deployment, and real-time matching.",
+      "overview": "MyxoFill optimizes the IT field service industry by connecting clients and qualified technicians directly. The platform automates matching, escrows payments, and provides verified ratings — transforming a traditionally opaque ecosystem into a transparent, merit-based system.",
+      "features": [
+        "Direct hiring – no agencies or markups",
+        "Verified technicians with ratings & skill tests",
+        "Mobile-ready task dashboard & live updates",
+        "Automated escrow payments",
+        "Data-secure messaging & contracts",
+        "AI-driven job matching by location & skill"
+      ],
+      "useCases": [
+        "POS & network equipment deployment",
+        "Retail IT setup and maintenance",
+        "Telecom and ISP installation",
+        "Multi-location hardware rollouts",
+        "Emergency IT on-site coverage"
+      ],
+      "pricing": {
+        "model": "Service-based transparent platform fee",
+        "tiers": [
+          {
+            "name": "Single Task",
+            "price": "From €180/day",
+            "billingPeriod": "per task",
+            "description": "For one-off technician deployment",
+            "features": [
+              "€150/day minimum freelancer pay",
+              "Transparent rates — no intermediaries",
+              "Instant escrow-based payment",
+              "Europe-wide coverage"
+            ],
+            "cta": "Request Technician"
+          },
+          {
+            "name": "Enterprise Contract",
+            "price": "Custom pricing",
+            "billingPeriod": "monthly or yearly",
+            "description": "Manage multi-site or recurring deployments",
+            "features": [
+              "Assigned freelancer pool",
+              "Priority dispatch & support",
+              "Workforce analytics dashboard",
+              "Custom API integration"
+            ],
+            "cta": "Get Enterprise Quote",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "freelance",
+        "it-field-service",
+        "platform",
+        "escrow",
+        "ai-matching"
+      ],
+      "featured": true,
+      "geography": "Europe-first deployment, globally scalable"
+    },
+    {
+      "key": "myxomake",
+      "name": "MyxoMake",
+      "tagline": "Custom Product Production",
+      "description": "Branded merchandise and promotional items via global suppliers. Flexible quality optimization for cost efficiency.",
+      "overview": "MyxoMake leverages our global supplier network to produce custom products with optimal cost-quality balance. No unnecessary quality checks — just efficient production at fair prices.",
+      "features": [
+        "Global supplier network",
+        "Branded merchandise production",
+        "Promotional items",
+        "Flexible quality tiers",
+        "Cost optimization",
+        "Fast turnaround times"
+      ],
+      "useCases": [
+        "Company merchandise",
+        "Event promotional items",
+        "Custom branded products",
+        "Marketing materials",
+        "Bulk product orders"
+      ],
+      "pricing": {
+        "model": "Micro-margins per product",
+        "tiers": [
+          {
+            "name": "Standard Production",
+            "price": "Quote-based",
+            "billingPeriod": "per order",
+            "description": "Custom pricing per product",
+            "features": [
+              "Global supplier access",
+              "Flexible quality options",
+              "Transparent pricing",
+              "Bulk discounts"
+            ],
+            "cta": "Get Quote"
+          }
+        ]
+      },
+      "tags": ["manufacturing", "merchandise", "global"],
+      "featured": false,
+      "geography": "Global production, Europe delivery"
+    },
+    {
+      "key": "stitchflow",
+      "name": "StitchFlow",
+      "tagline": "Garment Manufacturing",
+      "description": "Apparel manufacturing via global supplier network. Design, production, and delivery pipeline optimization.",
+      "overview": "StitchFlow integrates design, production, and delivery for garment manufacturing. Our global network ensures competitive pricing without compromising on essential quality standards.",
+      "features": [
+        "Full garment production pipeline",
+        "Design integration",
+        "Global manufacturing network",
+        "Quality-cost optimization",
+        "Delivery coordination",
+        "Neo4j supply chain tracking"
+      ],
+      "useCases": [
+        "Custom apparel lines",
+        "Corporate uniforms",
+        "Fashion brand production",
+        "Promotional clothing",
+        "Bulk garment orders"
+      ],
+      "pricing": {
+        "model": "Service fees + micro-margins",
+        "tiers": [
+          {
+            "name": "Garment Production",
+            "price": "Quote-based",
+            "billingPeriod": "per order",
+            "description": "Custom garment manufacturing",
+            "features": [
+              "Design support",
+              "Global production",
+              "Supply chain optimization",
+              "Quality assurance"
+            ],
+            "cta": "Get Quote"
+          }
+        ]
+      },
+      "tags": ["garments", "manufacturing", "fashion"],
+      "featured": true,
+      "geography": "Global production"
+    },
+
+    {
+      "key": "cheddar",
+      "name": "Cheddar",
+      "tagline": "Verified Connections. Real Results.",
+      "description": "A members-only dating platform that uses dynamic capacity management and rigorous verification to ensure quality connections without hidden algorithms or data selling.",
+      "overview": "Cheddar maintains optimal platform balance through proprietary dynamic capacity management and ID + live-photo verification. No black-box matching—just transparent discovery tools, verified profiles, and a results-oriented experience.",
+      "features": [
+        "Dynamic capacity management for balanced gender ratios",
+        "ID verification via Stripe Identity or Onfido",
+        "Camera-only photo capture with liveness detection",
+        "Transparent filters and proximity sorting (no hidden algorithms)",
+        "Non-recurring 30-day memberships with manual renewal",
+        "Automated pause & pro-rated refunds when capacity triggers"
+      ],
+      "useCases": [
+        "Serious daters seeking verified, high-quality matches",
+        "Users valuing privacy and no data-selling business model",
+        "Members wanting a streamlined experience without time-wasters",
+        "People preferring transparent discovery tools over opaque algorithms",
+        "Referral-driven community growth and quality control"
+      ],
+      "pricing": {
+        "model": "Dynamic membership pricing with capacity-based adjustments",
+        "tiers": [
+          {
+            "name": "Founding Member (Women)",
+            "price": "Free",
+            "billingPeriod": "90-day complimentary membership, auto-renewable",
+            "description": "Complimentary access, subject to capacity management",
+            "features": [
+              "Full verification & discovery tools",
+              "Auto-renewable every 90 days",
+              "Voluntary pause options"
+            ],
+            "cta": "Join as Founding Member"
+          },
+          {
+            "name": "Standard Membership (Men)",
+            "price": "€100",
+            "billingPeriod": "30 days, non-recurring by default",
+            "description": "30-day membership with manual renewal option",
+            "features": [
+              "Full verification & discovery tools",
+              "Priority waitlist with pro-rated refunds if paused",
+              "Referral credits & re-entry price lock"
+            ],
+            "cta": "Apply for Membership"
+          }
+        ]
+      },
+      "tags": ["dating", "verification", "capacity-management", "privacy"],
+      "featured": true
+    },
+
+    {
+      "key": "kitchenos",
+      "name": "KitchenOS",
+      "tagline": "Smart Kitchen Operating System for Restaurants",
+      "description": "Cloud-based restaurant management platform unifying order processing, kitchen workflow, inventory, and staff management into a single intelligent system.",
+      "overview": "KitchenOS is an end-to-end kitchen operating system that connects to your POS, kitchen displays, scheduling tools, and delivery platforms. Overlay AI-driven intelligence to create a command center for any restaurant kitchen—streamlining operations and boosting profitability.",
+      "features": [
+        "Omnichannel order management (dine-in, mobile, delivery apps)",
+        "Real-time Kitchen Display System with smart prioritization",
+        "Automated inventory tracking & procurement",
+        "AI-powered forecasting & analytics dashboards",
+        "Staff scheduling integrated with payroll",
+        "Self-service ordering & voice bot integration",
+        "Customer loyalty/CRM and marketing tools",
+        "Mobile alerts for KPIs (low stock, delayed orders)"
+      ],
+      "useCases": [
+        "Fine-dining & full-service restaurants",
+        "Ghost & cloud kitchens (multi-brand management)",
+        "Tech-savvy chains & quick-service restaurants (QSRs)",
+        "Independent & casual eateries with QR ordering"
+      ],
+      "pricing": {
+        "model": "Subscription per location",
+        "tiers": [
+          {
+            "name": "Single Location",
+            "price": "$299",
+            "billingPeriod": "per month",
+            "description": "Complete kitchen operating system",
+            "features": [
+              "Cloud-based POS & order hub",
+              "Digital kitchen display (KDS)",
+              "Automated inventory & reordering",
+              "Staff scheduling & payroll",
+              "AI analytics dashboard",
+              "24/7 support & cloud hosting"
+            ],
+            "cta": "Start Free Trial"
+          },
+          {
+            "name": "Multi-Location Enterprise",
+            "price": "Custom pricing",
+            "billingPeriod": "per location",
+            "description": "For restaurant chains & franchises",
+            "features": [
+              "Centralized multi-site management",
+              "Standardized recipes & compliance",
+              "Open API integration",
+              "Advanced analytics & forecasting",
+              "Dedicated account manager",
+              "Custom deployment & training"
+            ],
+            "cta": "Contact Sales",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "restaurant",
+        "automation",
+        "hospitality",
+        "cloud-pos",
+        "ai-forecasting"
+      ],
+      "featured": true,
+      "geography": "Global deployment, cloud-based"
+    },
+    {
+      "key": "timid",
+      "name": "Timid",
+      "tagline": "Privacy-First Browser",
+      "description": "Open-source fork of Brave, stripped of ad/revenue distractions. Pure privacy and user control.",
+      "overview": "Timid is a minimalist, privacy-focused browser based on Brave but without ad systems or revenue tracking. Complete user control, open-source transparency, and zero distractions.",
+      "features": [
+        "Open-source (Brave fork)",
+        "No ads or tracking",
+        "Complete privacy focus",
+        "Minimal design",
+        "GitHub-managed updates",
+        "Full user control"
+      ],
+      "useCases": [
+        "Privacy-conscious browsing",
+        "Corporate deployments",
+        "Security-focused organizations",
+        "Educational institutions",
+        "Personal use"
+      ],
+      "pricing": {
+        "model": "Free + optional support fees",
+        "tiers": [
+          {
+            "name": "Free Download",
+            "price": "€0",
+            "billingPeriod": "forever",
+            "description": "Open-source browser",
+            "features": [
+              "Full privacy features",
+              "Regular updates",
+              "Community support",
+              "GitHub access"
+            ],
+            "cta": "Download Free"
+          },
+          {
+            "name": "Enterprise Support",
+            "price": "€50",
+            "billingPeriod": "per user/year",
+            "description": "For organizations",
+            "features": [
+              "Installation support",
+              "Custom configurations",
+              "Priority updates",
+              "Technical support"
+            ],
+            "cta": "Contact Us"
+          }
+        ]
+      },
+      "tags": ["browser", "privacy", "open-source"],
+      "featured": false
+    },
+    {
+      "key": "deployment",
+      "name": "Software & System Deployment",
+      "tagline": "Custom Solutions in 30 Days",
+      "description": "Custom dashboards, automation tools, and software deployed within 30 days. Cloud or on-premise with optional recurring support.",
+      "overview": "We deploy custom software solutions, dashboards, and automation systems within 30 days. Cloud or GitHub pipelines for software; hardware handled by freelancers or our team. Optional IaaS support.",
+      "features": [
+        "30-day deployment guarantee",
+        "Custom dashboards (Neo4j-based)",
+        "Automation tools",
+        "Cloud or on-premise",
+        "Hardware installation via freelancers",
+        "Optional IaaS/cloud support"
+      ],
+      "useCases": [
+        "Custom business dashboards",
+        "Automation implementations",
+        "System integrations",
+        "Infrastructure deployments",
+        "Legacy system modernization"
+      ],
+      "pricing": {
+        "model": "Deployment fees + optional cloud support",
+        "tiers": [
+          {
+            "name": "Software Deployment",
+            "price": "From €2,500",
+            "billingPeriod": "per project",
+            "description": "Complete system deployment",
+            "features": [
+              "30-day delivery",
+              "Custom development",
+              "Testing & deployment",
+              "Documentation",
+              "Training included"
+            ],
+            "cta": "Get Quote",
+            "popular": true
+          },
+          {
+            "name": "Cloud Support",
+            "price": "From €199",
+            "billingPeriod": "per month",
+            "description": "Ongoing IaaS support",
+            "features": [
+              "Cloud hosting",
+              "Monitoring & updates",
+              "Security patches",
+              "Technical support",
+              "Backup & recovery"
+            ],
+            "cta": "Add Support"
+          }
+        ]
+      },
+      "tags": ["deployment", "software", "custom"],
+      "featured": true
+    }
+  ]
+}
