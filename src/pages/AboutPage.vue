@@ -26,24 +26,3 @@ import contentData from '../data/content.json'
 const info = computed(() => contentData.company)
 const philosophy = computed(() => contentData.philosophy)
 </script>
-
-<style scoped>
-/* basic about layout */
-.about {
-  padding: 2rem;
-}
-
-.hero {
-  background: #f5f5f5;
-  padding: 2rem;
-  border-radius: 8px;
-}
-
-.company {
-  margin-top: 2rem;
-}
-
-.philosophy {
-  margin-top: 2rem;
-}
-</style>

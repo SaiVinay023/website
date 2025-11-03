@@ -8,135 +8,75 @@
     {
       "label": "Products",
       "path": "/products",
+      "external": false,
       "children": [
-        {
-          "label": "MyxoFill",
-          "path": "/products/myxofill",
-          "external": false
-        },
-        {
-          "label": "MyxoMake",
-          "path": "/products/myxomake",
-          "external": false
-        },
-        {
-          "label": "StitchFlow",
-          "path": "/products/stitchflow",
-          "external": false
-        },
-        {
-          "label": "Cheddar",
-          "path": "/products/cheddar",
-          "external": false
-        },
-        {
-          "label": "KitchenOS",
-          "path": "/products/kitchenos",
-          "external": false
-        },
-        {
-          "label": "Timid Browser",
-          "path": "/products/timid",
-          "external": false
-        },
-        {
-          "label": "Software Deployment",
-          "path": "/products/deployment",
-          "external": false
-        }
+        { "label": "MyxoFill", "path": "/products/myxofill", "external": true },
+        { "label": "MyxoMake", "path": "/products/myxomake", "external": true },
+        { "label": "StitchFlow", "path": "/products/stitchflow", "external": true },
+        { "label": "Cheddar", "path": "/products/cheddar", "external": true },
+        { "label": "KitchenOS", "path": "/products/kitchenos", "external": true },
+        { "label": "Timid Browser", "path": "/products/timid", "external": true },
+        { "label": "Deployment", "path": "/products/deployment", "external": true }
       ]
     },
     {
       "label": "How It Works",
-      "path": "/how-it-works"
+      "path": "/how-it-works",
+      "external": false,
+      "children": [
+        { "label": "Case Studies", "path": "/how-it-works/case-studies", "external": false },
+        { "label": "FAQ", "path": "/faq", "external": false }
+      ]
     },
     {
       "label": "Partners",
-      "path": "/partners"
+      "path": "/partners",
+      "external": false,
+      "children": [
+        { "label": "Network", "path": "/partners", "external": false },
+        { "label": "Partner With Us (Company)", "path": "/partners/company", "external": false },
+        { "label": "Become a Provider (Freelancer)", "path": "/partners/provider", "external": false }
+      ]
     },
     {
-      "label": "About",
-      "path": "/about"
-    },
-    {
-      "label": "Contact",
-      "path": "/contact"
+      "label": "Company",
+      "path": "/company",
+      "external": false,
+      "children": [
+        { "label": "About & Contact", "path": "/company", "external": false },
+        { "label": "Philosophy", "path": "/company/philosophy", "external": false }
+      ]
     }
   ],
   "footer": {
     "products": [
-      {
-        "label": "MyxoFill",
-        "path": "/products/myxofill"
-      },
-      {
-        "label": "MyxoMake",
-        "path": "/products/myxomake"
-      },
-      {
-        "label": "StitchFlow",
-        "path": "/products/stitchflow"
-      },
-      {
-        "label": "MyxoDate",
-        "path": "/products/myxodate"
-      },
-      {
-        "label": "KitchenOS",
-        "path": "/products/kitchenos"
-      },
-      {
-        "label": "Timid Browser",
-        "path": "/products/timid"
-      }
+      { "label": "MyxoFill", "path": "/products/myxofill", "external": true },
+      { "label": "MyxoMake", "path": "/products/myxomake", "external": true },
+      { "label": "StitchFlow", "path": "/products/stitchflow", "external": true },
+      { "label": "KitchenOS", "path": "/products/kitchenos", "external": true },
+      { "label": "Timid Browser", "path": "/products/timid", "external": true },
+      { "label": "Deployment", "path": "/products/deployment", "external": true }
     ],
     "company": [
-      {
-        "label": "About Us",
-        "path": "/about"
-      },
-      {
-        "label": "How It Works",
-        "path": "/how-it-works"
-      },
-      {
-        "label": "Partners",
-        "path": "/partners"
-      },
-      {
-        "label": "Contact",
-        "path": "/contact"
-      }
+      { "label": "About & Contact", "path": "/company", "external": false },
+      { "label": "Philosophy", "path": "/company/philosophy", "external": false },
+      { "label": "How It Works", "path": "/how-it-works", "external": false },
+      { "label": "Partners", "path": "/partners", "external": false }
     ],
     "resources": [
-      {
-        "label": "FAQ",
-        "path": "/faq"
-      },
-      {
-        "label": "Support",
-        "path": "/contact",
-        "external": false
-      },
-      {
-        "label": "Documentation",
-        "path": "/docs",
-        "external": false
-      }
+      { "label": "Case Studies", "path": "/how-it-works/case-studies", "external": false },
+      { "label": "FAQ", "path": "/faq", "external": false },
+      { "label": "Documentation", "path": "/docs", "external": false },
+      { "label": "Support", "path": "/contact", "external": false }
+    ],
+    "partners": [
+      { "label": "Partner With Us (Company)", "path": "/partners/company", "external": false },
+      { "label": "Become a Provider (Freelancer)", "path": "/partners/provider", "external": false }
     ],
     "legal": [
-      {
-        "label": "Privacy Policy",
-        "path": "/privacy"
-      },
-      {
-        "label": "Terms of Service",
-        "path": "/terms"
-      },
-      {
-        "label": "Cookie Policy",
-        "path": "/cookies"
-      }
+      { "label": "Privacy Policy", "path": "/privacy", "external": false },
+      { "label": "Terms of Service", "path": "/terms", "external": false },
+      { "label": "Cookie Policy", "path": "/cookies", "external": false }
     ]
   }
 }

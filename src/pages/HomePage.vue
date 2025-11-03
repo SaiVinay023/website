@@ -18,7 +18,7 @@
               :key="highlight"
               class="row items-center q-gutter-sm"
             >
-              <q-icon name="check_circle" color="white" size="20px" />
+              <q-icon name="check_circle" color="primary" size="20px" />
               <span class="text-weight-bold">{{ highlight }}</span>
             </div>
           </div>
@@ -26,8 +26,8 @@
           <div class="row justify-center q-gutter-md">
             <q-btn
               :label="heroSection.cta.primary"
-              color="white"
-              text-color="primary"
+              color="primary"
+              text-color="white"
               size="lg"
               unelevated
               rounded
@@ -36,7 +36,7 @@
             <q-btn
               :label="heroSection.cta.secondary"
               color="transparent"
-              text-color="white"
+              text-color="primary"
               size="lg"
               outline
               rounded
@@ -90,7 +90,7 @@
             <div class="card">
               <div class="row items-center q-gutter-lg q-mb-lg">
                 <div class="member-avatar">
-                  <q-icon name="person" size="80px" color="white" />
+                  <q-icon name="person" size="80px" color="primary" />
                 </div>
                 <div>
                   <h3 class="h3 q-mb-xs">{{ member.name }}</h3>
@@ -117,7 +117,7 @@
     <section id="network" class="network">
       <div class="container">
         <div class="section-header">
-          <h2 class="h2 text-white">{{ network.title }}</h2>
+          <h2 class="h2">{{ network.title }}</h2>
         </div>
         
         <div class="row q-col-gutter-xl">
@@ -127,8 +127,8 @@
                 <q-icon name="location_on" size="40px" color="primary" />
                 <span class="network-scope">{{ network.deployment.scope }}</span>
               </div>
-              <h3 class="h3 q-mb-md text-white">{{ network.deployment.title }}</h3>
-              <p class="p text-white">{{ network.deployment.description }}</p>
+              <h3 class="h3 q-mb-md">{{ network.deployment.title }}</h3>
+              <p class="p">{{ network.deployment.description }}</p>
             </div>
           </div>
           
@@ -138,8 +138,8 @@
                 <q-icon name="public" size="40px" color="secondary" />
                 <span class="network-scope global">{{ network.supply.scope }}</span>
               </div>
-              <h3 class="h3 q-mb-md text-white">{{ network.supply.title }}</h3>
-              <p class="p text-white">{{ network.supply.description }}</p>
+              <h3 class="h3 q-mb-md">{{ network.supply.title }}</h3>
+              <p class="p">{{ network.supply.description }}</p>
             </div>
           </div>
         </div>
@@ -178,7 +178,7 @@
                 </div>
               </div>
               
-              <div v-if="product.geography" class="row items-center q-gutter-sm q-pa-md q-mb-md bg-grey-2 rounded-borders">
+              <div v-if="product.geography" class="row items-center q-gutter-sm q-pa-md q-mb-md product-geography rounded-borders">
                 <q-icon name="public" size="16px" color="secondary" />
                 <span class="text-weight-medium text-secondary">{{ product.geography }}</span>
               </div>
@@ -215,7 +215,7 @@
         
         <div class="row q-col-gutter-md">
           <div 
-            v-for=" step in operationalModel.steps" 
+            v-for="step in operationalModel.steps" 
             :key="step.number"
             class="col-12 col-sm-6 col-lg-3"
           >
@@ -263,7 +263,7 @@
     <section id="revenue" class="revenue">
       <div class="container">
         <div class="section-header">
-          <h2 class="h2 text-white">{{ revenue.title }}</h2>
+          <h2 class="h2">{{ revenue.title }}</h2>
         </div>
         
         <div class="row q-col-gutter-lg">
@@ -274,8 +274,8 @@
           >
             <div class="card network-card text-center">
               <q-icon name="payments" size="32px" color="primary" class="q-mb-md" />
-              <h3 class="text-h6 text-weight-bold q-mb-md text-white">{{ stream.name }}</h3>
-              <p class="text-body2 text-white">{{ stream.description }}</p>
+              <h3 class="text-h6 text-weight-bold q-mb-md">{{ stream.name }}</h3>
+              <p class="text-body2">{{ stream.description }}</p>
             </div>
           </div>
         </div>
@@ -306,14 +306,14 @@
     <section id="cta" class="final-cta">
       <div class="container">
         <div class="cta-content">
-          <h1 class="h1 q-mb-lg" style="color: white;">{{ finalCTA.title }}</h1>
-          <p class="text-h5 q-mb-xl" style="color: white; opacity: 0.9;">{{ finalCTA.subtitle }}</p>
+          <h1 class="h1 q-mb-lg">{{ finalCTA.title }}</h1>
+          <p class="text-h5 q-mb-xl" style="opacity: 0.9;">{{ finalCTA.subtitle }}</p>
           
           <div class="row justify-center q-gutter-md q-mb-xl">
             <q-btn
               :label="finalCTA.primary"
-              color="white"
-              text-color="primary"
+              color="primary"
+              text-color="white"
               size="xl"
               unelevated
               rounded
@@ -322,7 +322,7 @@
             <q-btn
               :label="finalCTA.secondary"
               color="transparent"
-              text-color="white"
+              text-color="primary"
               size="xl"
               outline
               rounded
@@ -338,11 +338,11 @@
           <div class="row justify-center q-gutter-xl">
             <div class="row items-center q-gutter-sm">
               <q-icon name="email" size="20px" />
-              <a :href="`mailto:${companyInfo.email}`" class="text-white text-weight-bold">{{ companyInfo.email }}</a>
+              <a :href="`mailto:${companyInfo.email}`" class="text-weight-bold">{{ companyInfo.email }}</a>
             </div>
             <div class="row items-center q-gutter-sm">
               <q-icon name="phone" size="20px" />
-              <a :href="`tel:${companyInfo.phone}`" class="text-white text-weight-bold">{{ companyInfo.phone }}</a>
+              <a :href="`tel:${companyInfo.phone}`" class="text-weight-bold">{{ companyInfo.phone }}</a>
             </div>
           </div>
         </div>
@@ -378,181 +378,3 @@ const navigateToProduct = async (productKey: string) => {
   await router.push({ name: 'product', params: { key: productKey } })
 }
 </script>
-
-<style scoped lang="scss">
-// MINIMAL PAGE-SPECIFIC STYLES ONLY
-// All common styles are in app.scss
-
-.home-page {
-  width: 100%;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-// Hero-specific styles
-.hero-section {
-  position: relative;
-  padding: 160px 0 120px;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  color: white;
-  text-align: center;
-  overflow: hidden;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 28px;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 32px;
-  margin-bottom: 32px;
-  font-size: 16px;
-  font-weight: 600;
-  backdrop-filter: blur(10px);
-  
-  .badge-icon {
-    font-size: 24px;
-  }
-}
-
-.hero-subtitle {
-  font-size: 22px;
-  opacity: 0.9;
-  line-height: 1.7;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// Team-specific
-.member-avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--q-primary) 0%, var(--q-secondary) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-// Network-specific
-.network-card {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  
-  &:hover {
-    background: rgba(255, 255, 255, 0.08) !important;
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-}
-
-.network-scope {
-  padding: 10px 24px;
-  background: var(--q-primary);
-  color: white;
-  border-radius: 24px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  
-  &.global {
-    background: var(--q-secondary);
-  }
-}
-
-// Product-specific
-.product-badge {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 8px 20px;
-  background: var(--q-primary);
-  color: white;
-  border-radius: 16px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.product-pricing {
-  padding: 28px 0;
-  border-top: 2px solid #e9ecef;
-  border-bottom: 2px solid #e9ecef;
-}
-
-// Operational-specific
-.step-number {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--q-primary) 0%, var(--q-secondary) 100%);
-  color: white;
-  font-size: 32px;
-  font-weight: 800;
-  border-radius: 50%;
-  box-shadow: 0 8px 24px rgba(0, 150, 136, 0.3);
-}
-
-// CTA-specific
-.final-cta {
-  padding: 140px 0;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  color: white;
-  text-align: center;
-}
-
-.cta-content {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.cta-guarantee {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  padding: 24px 40px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-}
-
-.cta-contact a {
-  color: white;
-  text-decoration: none;
-  transition: opacity 0.3s ease;
-  
-  &:hover {
-    opacity: 0.8;
-  }
-}
-
-// Responsive
-@media (max-width: 768px) {
-  .hero-section {
-    padding: 100px 0 80px;
-  }
-  
-  .final-cta {
-    padding: 80px 0;
-  }
-}
-</style>
